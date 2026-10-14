@@ -1,0 +1,13 @@
+{
+  "name": "jaeyoon-profile",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Static personal profile website",
+  "scripts": {
+    "start": "node scripts/server.mjs",
+    "dev": "node scripts/server.mjs",
+    "build": "node scripts/build.mjs",
+    "preview": "node scripts/server.mjs --dist"
+  },
+  "engines": { "node": ">=22" }
+}
